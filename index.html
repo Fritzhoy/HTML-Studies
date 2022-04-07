@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu HTML</title>
+    <style>
+        h1 {
+            background: rebeccapurple
+        }
+        #heading-two{
+            background: blanchedalmond
+        } 
+        .borda-esquerda{
+            background: brown 
+        }
+        .img-in{ 
+            width:"500px"; 
+            height: "500px";
+        }
+    </style>
+</head>
+
+<header><h1>
+    <a href="#">AQUI TEM UM LINK</a></h1>
+    <p>Podemos ter mais de um header por página, nesse caso aqui foi um exemplo</p>
+</header>
+ 
+<body>
+    <h1 id="heading" class="fundo-vermelho borda-esquerda"> No style (CSS) chamasse o "h1" apenas <br>
+    sobre escrevi o style do h1 chamando a classe "borda-esquerda" usar um "." pra chamar classe </h1>
+    <h1 id="heading-two" class="fundo-vermelho"> No style (CSS) representamo o id usando "#" </h1>
+    <h2 style="background:burlywood">sub titulo</h2>
+    <p>Sendo h1 o titulo principal e os demais são dependencias deles.Assim vai até o h6</p>
+
+    <h3>sub titulo do h2 </h3>
+    <p> o h3 pode ser o titulo de um produto, <i>pois esses h aparecem </i> em buscadores então são importantes na semantica </p> 
+
+
+    <p>exemplo de tags: H<sub>2</sub>O, 2<sup>2</sup>,<small>letrinhas pequenas</small>, <q cite="">Citacao de algum lugar</q>Exemplo de texto usar Lorem e um espaço<br> 
+        optio iste <b>AQUI VEM TEXTO EM NEGRITO</b>, <span style="color: blue; font-size: 20px;">O span é uma tag inline que pode ser usada dentro do bloco, usada para incluir alguma classse ou estilo</span><br> 
+        <s>riscar a palavra</s> <strong> semantica de força na palavra </strong> 
+        <em>amoooo usado para enfatizar, semantica </em>
+        <a href="https://ethereum.org/en/developers/docs/mev/" target='_blank'>direciona para o link</a> <br>
+        <br>
+        <img class="img-in" src="https://s2.glbimg.com/VJVCcMAqTPFgb2iIgGQ07l-B80E=/0x0:3000x2704/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2018/t/F/yPSiQtSgAkC8aFiXr2bA/huji.jpg" 
+        alt="flor fofa da internet">
+    </p>
+    <hr>
+    <blockquote>Esse tipo de citação é feito em bloco, fora de um paragrafo, para usar o link de onde vem a sitação
+        use o cite="link-aqui-dentro".
+    </blockquote>
+    <hr>
+    <pre><code>Usar juntinho para manter a formatação(pre)para o código(code) 
+
+    Contract HelloWorld {
+    
+        function get()public pure returns (string memory){
+        return Hello Contracts;
+        }
+    }
+    </code></pre>
+    <div> Eu sou um BLOCO, div não se utiliza dentro do paragrafo.<br> 
+    para mais informação sobre tags <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element" target='_blank'> clique aqui </a></div>
+    
+    <h2> Tags importantes para estruturação</h2>
+
+    <address>Colocar endereço no final da páginas
+    </address>
+    <hr>
+    <article><h3>Essa seção introduz uma article, boa prática ter cabelhaço</h3>
+        <p> Article podem ser utilizados para criar post, criar produtos por exemplo uma loja de vendas, essa tag pode ser repetido
+            utilizadas para dar estrutura a página, evitando o uso repetitivo de div.
+        </p>
+    </article>
+
+    <hr>
+     
+    <aside>conteudo de lado, que pode ser uma caixinha de texto lateral. Ou um texto que tem haver
+        com o conteudo da página, mas está separado em uma caixinha 
+        <footer>Cria o rodapé da página, mas também pode ser um rodapé do seu parente mais próximo
+            nesse caso o aside.
+        </footer></aside>
+    
+
+     <main> Define o conteudo principal de uma página</main>
+</body>
+</html>
