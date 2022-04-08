@@ -13,7 +13,6 @@ Created in order to learn the main TAGs at Html and the structure, the idea is u
  
 This exercise was performed using the layout Grind, the main focus of this exercise is understand the context of Html and how to code
 using the boxes model. Layout grind has 4 columns and 4 rows.
+ 
+the main idea is: the image will be on the center and the text in small "boxes" around the image. The ideia of this exercise is understand how to build a page using the context of boxes.
 
-Utilizando o metodo de "caixas"para construção de um site, no exemplo usando o layout de grind com colunas e linhas. 
-a ideia é manter a imagem centralizado e os demais conteudo em pequenas caixas dentros dos grinds.
--> a fazer: centralizar imagem na coluna 3;
