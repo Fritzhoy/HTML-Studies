@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Stranger</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: black;
+            background-size: center;
+        }
+
+        .grid-container {
+        display: grid;
+        width:"2545px"; 
+        grid-template-columns: 320px 220px auto 320px;
+        grid-template-rows: 320px 320px 320px;
+        background-color:  silver
+        }
+
+        .grid-item {
+        background-color: #c0c0c0;
+        padding: 20px;
+        font-size: 50px;
+        text-align: center;
+        }
+
+        .item1{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        }
+        .item2{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        }
+        .item3{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        }
+
+        .item4{
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        }
+
+        #text1 { 
+            padding: 15px  0 15px 0px;
+            text-align: center;
+            font-size: 600%;
+            color: #c0c0c0;
+            font-style: oblique;
+            text-transform: uppercase;
+        }
+        #header {
+            display: flex;
+        }
+        .subtext {
+            padding: 15px  0 15px 0px;
+            color: #c0c0c0;
+
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .img-cen{
+            image-rendering: auto;
+            width:"850px"; 
+            height: "800px";
+        }
+
+        .hello {
+            font-size: 200%;
+        }
+    </style> 
+</head>
+<body>
+    <header class="header">
+        <h1 id="text1"> People are Strange </h1> 
+         <h2 class= "subtext" >Faces look</h2>
+    </header>
+
+    
+    <div class = "grid-container"> 
+
+        <p class="grid-item item1" > When you are Stranger</p>
+        <h2 class="grid-item item2"> FACES LOOK </h2>
+        <p class="grid-item item3"> When you ARE alone </p>
+
+        <div class="grid-item item4"  >
+            <img class="grid-item item4" src="https://cafans.b-cdn.net/images/Category_1596/subcat_15430/Untitled-7%20GS.jpg" 
+            alt="Imagem Internet DRW">
+        </div>
+           
+
+        <div class="grid-item">
+           <h1>faces come out of the rain</h1>
+            <h2>when you are strange</h2>
+            <em> when you are strange</em><br><br><br>
+            <p> when you are strange</p><br>
+        </div>            
+    </div>
+    
+</body>
+</html>
