@@ -8,6 +8,6 @@ Created as part of the react studies based on the Udemy Course - React.Js + Next
 <hr>
 <br>
 <h1>Sites<h1>
-<p>Utilizando o metodo de "caixas"para construção de um site, no exemplo usando o layout de grind com colunas e linhas. <br>
-    a ideia é manter a imagem centralizado e os demais conteudo em pequenas caixas dentros dos grinds.<br>
+<p>Utilizando o metodo de "caixas"para construção de um site, no exemplo usando o layout de grind com colunas e linhas. 
+    a ideia é manter a imagem centralizado e os demais conteudo em pequenas caixas dentros dos grinds.
    -> a fazer: centralizar imagem na coluna 3;</p>
